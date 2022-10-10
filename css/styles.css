@@ -236,6 +236,7 @@ h6 {
         top: -100%;
         left: 0;
         backdrop-filter: blur(55px);
+        -webkit-backdrop-filter: blur(55px);
         transition: all 0.3s ease 0s;
     }
 
