@@ -193,7 +193,7 @@ h6 {
         position: relative;
         width: 30px;
         height: 20px;
-        z-index: 3;
+        z-index: 4;
     }
 
     .top-container__burger:before,
@@ -225,6 +225,8 @@ h6 {
     }
 
     .top-container__navbar {
+        position: relative;
+        z-index: 3;
         display: inline-block;
         text-align: right;
         overflow: auto;
